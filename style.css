@@ -12,7 +12,7 @@
 }
 
 /* HEADER SECTION */
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -150,5 +150,132 @@ header{
     color: rgba(230, 83, 60, 1);
 }
 
+main{
+    background-color: black;
+}
 
+/* CHANGE HABIT SECTION */
+
+.change-habit{
+    padding-top: 6.25rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.habit-title{
+    font-size: 3em;
+    font-weight: 900;
+    color: white;
+}
+
+.habit-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+.habit-card{
+    display: flex;
+    padding-top: 3.65rem;
+    padding-bottom: 6.25rem;
+    
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.card-title{
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-des{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding:0.5rem 2.5rem;
+}
+
+.banner-2{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 1rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.banner-2-details{
+    width: 20rem;
+    padding: 1rem 0;
+    padding-left: 2rem;
+}
+
+.ban-2-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.ban-2-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2.5rem;
+    width: 30rem;
+}
+
+.banner-2-pic {
+    background-image: url(images/run.jpg);
+    width: 22.875rem;
+    height: 19.5rem;
+    border-radius: 1.1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: ;
+    border-image: fill;
+}
+
+/* TRAINING AND EXERCISE SECTION */
+
+.training-sec{
+    margin: 0 auto;
+    width: 70%;
+
+    padding-top: 6.25rem;
+}
+
+.train-title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.train-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+.exercise-pic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 5.5rem;
+}
+
+.exercise-pic img{
+    width: 100%;
+    height: 100%;
+}
 
