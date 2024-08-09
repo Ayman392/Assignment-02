@@ -16,8 +16,9 @@
     margin: 0;
     padding: 0;
 }
+
 header{
-    background: linear-gradient(rgba(17, 17, 17, 1)100%,rgba(119, 119, 119, 0)0%);
+    background: linear-gradient(180deg,rgba(17, 17, 17, 1)100%,rgba(119, 119, 119, 0)0%);
 }
 .nav-bar{
     margin: 0 auto;
@@ -29,6 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding-top: 3.75rem;
+    margin-bottom: 7rem;
 }
 
 .fitness{
@@ -62,6 +64,7 @@ header{
 .banner{
     display: flex;
     justify-content: space-between;
+    margin-bottom: -14rem;
 }
 
 .banner-details{
@@ -103,12 +106,16 @@ header{
     margin-left: 1rem;
 }
 
+
+
 .free-vid{
-   
-    background-color: rgba(255, 255, 255, 0.247);
+    position: absolute;
+    top: 15rem;
+    right: 7rem;
+    background-color: rgba(255, 255, 255, 0.226);
     border-radius: 1rem;
     border: none;
-    padding: 0.01rem 0.5rem;
+    padding: 0.75rem 1.2rem;
 }
 
 .vid-num{
@@ -120,17 +127,21 @@ header{
 .vid-des{
     font-size: 0.9rem;
     font-weight: 500;
-    color: rgba(48, 48, 48, 0.54);
+    color: rgba(248, 248, 248, 0.644);
 }
 
 .tutorial{
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.062);
+    position: relative;
+    top: -15rem;
+    left: -12rem;
+    background-color: rgba(48, 48, 48, 0.54);
     border-radius: 1rem;
     border: none;
-    padding: 0.01rem 0.5rem;
+    padding: 1.5rem ;
     gap: 1rem;
+    margin: 4rem;
 }
 
 .vid-num1{
@@ -202,13 +213,15 @@ main{
     padding:0.5rem 2.5rem;
 }
 
+/* RUN AN EXTRA MILE */
+
 .banner-2{
     margin: 0 auto;
     width: 70%;
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 1rem;
     align-items: center;
 }
@@ -234,15 +247,10 @@ main{
     width: 30rem;
 }
 
-.banner-2-pic {
-    background-image: url(images/run.jpg);
-    width: 22.875rem;
-    height: 19.5rem;
+
+.run{
+    width: 20rem;
     border-radius: 1.1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: ;
-    border-image: fill;
 }
 
 /* TRAINING AND EXERCISE SECTION */
@@ -250,8 +258,8 @@ main{
 .training-sec{
     margin: 0 auto;
     width: 70%;
-
     padding-top: 6.25rem;
+    padding-bottom: 5.5rem;
 }
 
 .train-title{
@@ -271,7 +279,7 @@ main{
 .exercise-pic{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-bottom: 5.5rem;
+
 }
 
 .exercise-pic img{
@@ -279,3 +287,38 @@ main{
     height: 100%;
 }
 
+#img-1 img{
+    background-color: rgba(6, 255, 210, 0.5);
+}
+
+/* BMI CALCULATOR SECTION */
+
+.bmi-calc{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    text-align: start;
+    padding-bottom: 5.5rem;
+}
+
+.bmi-title{
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.bmi-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.bmi-calc-chart{
+    color: white;
+}
+
+.chart{
+    border: 1px solid grey;
+    padding: 1rem 3rem;
+}
