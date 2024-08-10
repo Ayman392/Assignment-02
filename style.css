@@ -217,11 +217,11 @@ main{
 
 .banner-2{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
     align-items: center;
 }
@@ -257,7 +257,7 @@ main{
 
 .training-sec{
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding-top: 6.25rem;
     padding-bottom: 5.5rem;
 }
@@ -296,9 +296,8 @@ main{
 .bmi-calc{
     margin: 0 auto;
     width: 80%;
-    display: grid;
-    justify-content: center;
-    text-align: start;
+    text-align: starts;
+    padding-left: 15rem;
     padding-bottom: 5.5rem;
 }
 
@@ -312,13 +311,64 @@ main{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 1rem;
+    margin-top: 1rem;
 }
 
-.bmi-calc-chart{
+.bmi-chart{
+    background-color: rgba(34, 34, 34, 1);
+   
+}
+
+.chart-title{
     color: white;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
-.chart{
-    border: 1px solid grey;
-    padding: 1rem 3rem;
+.calculator{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+
+td{
+    border: 1px solid white;
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.thead{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.calculate-BMI{
+    padding-left:  15rem;
+}
+
+.form-1{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form{
+    display: flex;
 }
