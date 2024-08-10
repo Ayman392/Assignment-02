@@ -372,3 +372,38 @@ td{
 .form{
     display: flex;
 }
+
+/* TEAM INFORMATION */
+
+.team-info{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.team-title{
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.team-des{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.team-photo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.trainer img{
+    width: 100%;
+    height: 100%;
+    
+}
