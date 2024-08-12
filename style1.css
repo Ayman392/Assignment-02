@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    .nav-bar , .banner , .card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .buttons{
+        display: flex;
+    }
+
+    .app{
+        margin: 0rem;
+    }
+
+    .banner-photo{
+        width: 100%;
+    }
+
+    .card{
+        padding-top: 2.5rem;
+    }
+
+    .card-content{
+        padding-bottom: 2rem;
+    }
+}
