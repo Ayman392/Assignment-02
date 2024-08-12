@@ -67,10 +67,6 @@ header{
     margin-bottom: -14rem;
 }
 
-.banner-details{
-    width: 37.5rem;
-}
-
 .banner-title{
     font-size: 4.875rem;
     color: white;
@@ -247,7 +243,6 @@ main{
     width: 30rem;
 }
 
-
 .run{
     width: 20rem;
     border-radius: 1.1rem;
@@ -260,6 +255,7 @@ main{
     width: 80%;
     padding-top: 6.25rem;
     padding-bottom: 5.5rem;
+    text-align: center;
 }
 
 .train-title{
@@ -275,29 +271,67 @@ main{
     padding-top: 1rem;
     padding-bottom: 3.5rem;
 }
-
 .exercise-pic{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-
+    grid-template-columns: 250px 520px 290px;
+    grid-template-rows: 200px 200px;
 }
 
-.exercise-pic img{
-    width: 100%;
-    height: 100%;
-}
-
-#img-1 img{
+.exercise-1{
     background-color: rgba(6, 255, 210, 0.5);
+    background-image: url(images/exercise1.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
 }
+
+.exercise-2{
+    background-image: url(images/exercise2.png);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.exercise-3{
+    background-image: url(images/exercise3.png); 
+    background-size: cover;
+    background-position: center;
+}
+
+.exercise-4{
+    background-image: url(images/exercise4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.exercise-5{
+    background-image: url(images/exercise5.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.exercise-6{
+    background-image: url(images/exercise6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.exercise-des{
+    position: relative;
+    top: 10rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+
 
 /* BMI CALCULATOR SECTION */
 
 .bmi-calc{
     margin: 0 auto;
     width: 80%;
-    text-align: starts;
-    padding-left: 15rem;
+    text-align: center;
     padding-bottom: 5.5rem;
 }
 
@@ -342,8 +376,8 @@ table{
 
 td{
     border: 1px solid white;
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.75rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -351,26 +385,26 @@ td{
 .thead{
     color: white;
     font-weight: 700;
-    font-size: 1rem;
-}
-
-.calculate-BMI{
-    padding-left:  15rem;
-}
-
-.form-1{
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    gap: 1rem;
-    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1.5rem;
 }
 
 .form{
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    padding: 2rem 0;
+}
+
+.form-1{
+    margin: 0.5rem 0rem;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-footer{
+    grid-column: 1/3;
 }
 
 /* TEAM INFORMATION */
@@ -398,15 +432,75 @@ td{
     padding-bottom: 4rem;
 }
 
-.team-photo{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.trainer-name{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
 }
 
-.trainer img{
-    width: 100%;
-    height: 100%;
-    
+.trainer-role{
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+}
+
+.team-photo{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    grid-template-rows: repeat(2,280px);    
+    gap: 1rem;
+    padding: 1rem ;
+    border-radius: 1rem;
+    justify-content: space-around;    
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.info{
+    position: relative;
+    top: 14rem;
+    padding-left: 1rem;
+}
+
+.trainer-1{
+    background-image: url(images/trainer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.trainer-2{
+    background-image: url(images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.trainer-3{
+    background-image: url(images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.trainer-4{
+    background-image: url(images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.trainer-5{
+    background-image: url(images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.trainer-6{
+    background-image: url(images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
 }
 
 /* FOOTER */
@@ -427,11 +521,9 @@ footer{
     padding-bottom: 5rem;
 }
 
-
-
 .footer-1-title{
     font-style: italic;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: bolder;
     color: rgba(230, 83, 60, 1);
 }
