@@ -1,0 +1,105 @@
+@media screen and (max-width:576px) {
+    .banner , .card {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .nav-bar{
+        width: 25rem;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .buttons{
+        display: flex;
+        width: 25.3rem;
+        height: 3.375rem;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .primary-btn{
+        padding: 1rem 2.7rem;
+    }
+
+    .app{
+        padding: 1rem 2rem;
+    }
+
+    .app{
+        margin: 0rem;
+    }
+
+    .banner-content{
+        width: 21rem;
+        height: 21rem;
+        padding-left: 1rem;
+    }
+
+    .banner-title{
+        font-size: 2.25rem;
+    }
+
+    .banner-photo{
+        width: 100%;
+    }
+
+    .workout-video{
+        top: 2rem;
+        left: 12rem;
+        width: 9rem;
+        height: 5rem;
+    }
+
+    .tutorial{
+        top: 11rem;
+        right: -1rem;
+        width: 11rem;
+        height: 5rem;
+    }
+
+    .tutorial p{
+        font-size: 0.75rem;
+    }
+
+
+    .card{
+        padding-top: 2.5rem;
+    }
+
+    .card-content{
+        padding-bottom: 2rem;
+    }
+
+    .habit-title{
+        font-size: 2rem;
+    }
+
+    .run{
+        flex-direction: column;
+        width: 22rem;
+    }
+
+    .run-title{
+        font-size: 2rem;
+    }
+
+    .run-btn{
+        width: 18rem;
+        height: 3.375rem;
+    }
+
+    .run-photo img{
+        width: 18rem;
+        height: 10.625rem;
+        object-fit: fill;
+        background-size: contain;
+    }
+}

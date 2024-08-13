@@ -70,13 +70,21 @@ main{
 }
 
 .home{
-
     border-radius: 2.875rem;
     padding: 0.5rem 1.25rem;
 }
 
 .nav-link{
     text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    font-size: 2rem;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -121,6 +129,10 @@ main{
     border: none;
 }
 
+.primary-btn{
+    padding: 1rem 3.7rem;
+}
+
 .app{
     background-color: rgba(255, 255, 255, 0.041);
     padding: 1.1rem 3rem;
@@ -147,7 +159,7 @@ main{
 .workout-video{
     position: relative;
     top: 9rem;
-    left: 13rem;
+    left: 12rem;
 }
 
 .workout-video h1{
@@ -171,6 +183,10 @@ main{
 .tutorial p{
     font-size: 1rem;
     font-weight: 400;
+}
+
+.vid{
+    text-align: start;
 }
 
 .tutorial{
@@ -238,4 +254,42 @@ main{
     font-size: 0.875rem;
     font-weight: 400;
     padding-top: 0.5rem;
+}
+
+/* Run styles */
+
+.run{
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 6.25rem;
+    border-radius: 1.125rem;
+    align-items: center;
+}
+
+.run-content{
+    max-width: 27.75rem;
+    padding: 2.5rem 3.375rem;
+}
+
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 1.5rem;
+}
+
+.run-desc{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 2rem;
+}
+
+.run-photo img{
+    width: 20rem;
+    height: 19.5rem;
+    border-radius: 1.125rem;
+    margin: 1rem 1.5rem;
 }
